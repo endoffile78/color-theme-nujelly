@@ -157,8 +157,12 @@
        `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
        `(web-mode-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(web-mode-html-attr-name-face ((,class (:foreground ,ujelly-purple-0))))
-       `(web-mode-html-tag-face ((,class (:foreground ,ujelly-fg))))
+       `(web-mode-html-tag-face ((,class (:foreground ,ujelly-yellow-0))))
        `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
+	   `(web-mode-doctype-face ((,class (:foreground ,ujelly-blue-0))))
+	   `(web-mode-html-tag-bracket-face ((,class (:foreground ,ujelly-fg))))
+	   `(web-mode-current-element-highlight-face ((,class (:background "#808080"))))
+	   `(web-mode-block-delimiter-face ((,class (:foreground ,ujelly-blue-0))))
        `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
 ;;;###autoload
