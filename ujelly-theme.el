@@ -159,10 +159,13 @@
        `(web-mode-html-attr-name-face ((,class (:foreground ,ujelly-purple-0))))
        `(web-mode-html-tag-face ((,class (:foreground ,ujelly-yellow-0))))
        `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
-	   `(web-mode-doctype-face ((,class (:foreground ,ujelly-blue-0))))
+	   `(web-mode-doctype-face ((,class (:foreground ,ujelly-blue-0 :slant italic))))
 	   `(web-mode-html-tag-bracket-face ((,class (:foreground ,ujelly-fg))))
 	   `(web-mode-current-element-highlight-face ((,class (:background ,ujelly-grey-0))))
 	   `(web-mode-block-delimiter-face ((,class (:foreground ,ujelly-blue-0))))
+	   `(web-mode-warning-face ((,class (:inherit font-lock-warning-face))))
+	   `(web-mode-error-face ((,class (:background ,ujelly-red-1))))
+	   `(web-mode-comment-face ((,class (:inherit font-lock-comment-face))))
        `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
 ;;;###autoload
