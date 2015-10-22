@@ -106,6 +106,8 @@
        `(helm-source-header ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-3))))
        `(helm-swoop-target-line-face ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-4))))
        `(helm-swoop-target-word-face ((,class (:foreground ,ujelly-red-1))))
+	   `(highlight-indentation-face ((,class (:background ,ujelly-grey-2))))
+	   `(highlight-indentation-current-column-face((,class (:background ,ujelly-grey-2)))) 
        `(hl-line ((,class (:background ,ujelly-grey-4))))
        `(isearch ((,class (:foreground ,ujelly-fg :background ,ujelly-red-1))))
        `(isearch-fail ((,class (:background ,ujelly-red-1))))
