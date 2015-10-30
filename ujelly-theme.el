@@ -179,6 +179,10 @@
    `(web-mode-comment-face ((,class (:inherit font-lock-comment-face))))
    `(web-mode-css-string-face ((,class (:inherit font-lock-string-face))))
    `(web-mode-block-comment-face ((,class (:inherit web-mode-comment-face))))
+   `(web-mode-comment-keyword-face ((,class (:box 1 :weight bold))))
+   `(web-mode-css-comment-face ((,class (:inherit web-mode-comment-face))))
+   `(web-mode-javascript-comment-face ((,class (:inherit web-mode-comment-face))))
+   `(web-mode-json-comment-face ((,class (:inherit web-mode-comment-face))))
    `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
 ;;;###autoload
