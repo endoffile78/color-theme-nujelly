@@ -166,13 +166,13 @@
    `(sp-pair-overlay-face ((,class (:background ,ujelly-blue-0))))
    `(sp-show-pair-match-face ((,class (:background ,ujelly-blue-0))))
    `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
-   `(web-mode-builtin-face ((,class (:foreground ,ujelly-blue-0))))
+   `(web-mode-builtin-face ((,class (:inherit font-lock-builtin-face))))
    `(web-mode-html-attr-name-face ((,class (:foreground ,ujelly-purple-0))))
    `(web-mode-html-tag-face ((,class (:foreground ,ujelly-yellow-0))))
    `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
    `(web-mode-doctype-face ((,class (:foreground ,ujelly-blue-0 :slant italic))))
    `(web-mode-html-tag-bracket-face ((,class (:foreground ,ujelly-fg))))
-   `(web-mode-current-element-highlight-face ((,class (:background ,ujelly-grey-0))))
+   `(web-mode-current-element-highlight-face ((,class (:background ,ujelly-grey-1))))
    `(web-mode-block-delimiter-face ((,class (:foreground ,ujelly-blue-0))))
    `(web-mode-warning-face ((,class (:inherit font-lock-warning-face))))
    `(web-mode-error-face ((,class (:background ,ujelly-red-1))))
@@ -183,6 +183,7 @@
    `(web-mode-css-comment-face ((,class (:inherit web-mode-comment-face))))
    `(web-mode-javascript-comment-face ((,class (:inherit web-mode-comment-face))))
    `(web-mode-json-comment-face ((,class (:inherit web-mode-comment-face))))
+   `(web-mode-function-call-face ((,class (:inherit font-lock-function-name-face))))
    `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
 ;;;###autoload
