@@ -115,6 +115,8 @@
    `(ido-only-match ((,class (:foreground ,ujelly-green-0))))
    `(ido-subdir ((,class (:foreground ,ujelly-fg))))
    `(ido-virtual ((,class (:foreground ,ujelly-purple-0))))
+   `(js2-external-variable ((,class (:foreground ,ujelly-orange-0))))
+   `(js2-magic-paren ((,class (:underline t))))
    `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
    `(linum ((,class (:slant italic :foreground ,ujelly-grey-4))))
    `(magit-blame-heading ((,class (:foreground ,ujelly-grey-1 :background ,ujelly-grey-2))))
