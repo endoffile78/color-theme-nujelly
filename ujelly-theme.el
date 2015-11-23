@@ -165,7 +165,7 @@
    `(shm-quarantine-face ((,class (:background ,ujelly-red-1))))
    `(smerge-markers ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
    `(smerge-refined-change ((,class (:foreground ,ujelly-green-0))))
-   `(sp-pair-overlay-face ((,class (:background ,ujelly-grey-0))))
+   `(sp-pair-overlay-face ((,class (:background nil))))
    `(sp-show-pair-match-face ((,class (:background ,ujelly-grey-1))))
    `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
    `(web-mode-builtin-face ((,class (:inherit font-lock-builtin-face))))
