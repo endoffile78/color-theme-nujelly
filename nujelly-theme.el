@@ -11,7 +11,7 @@
 
 ;;; Code:
 
-(deftheme nujelly "The ujelly color theme")
+(deftheme nujelly "The nujelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
       (nujelly-fg "#ffffff")
